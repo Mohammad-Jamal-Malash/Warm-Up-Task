@@ -1,0 +1,29 @@
+.list_item{
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 100%;
+}
+.name_txt{
+    font-size: 1rem;
+    font-family: inherit;
+    margin-left: 10px;
+}
+
+.in_team{
+    color: black;
+}
+
+.out_team{
+    color: rgba(0,0,0,0.3);
+}
+
+input[type="checkbox"]{
+    color: #000;
+    border-radius: '50%';
+    accent-color: green;
+}

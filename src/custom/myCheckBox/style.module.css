@@ -1,0 +1,24 @@
+.checkbox{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid rgba(0,0,0,0.3);
+}
+.selected{
+    border-color: limegreen;
+}
+.checkbox:not(.selected):hover{
+    border-color: rgba(0,0,0,0.7);
+    scale: 1.1;
+}
+.icon{
+    color: limegreen;
+    font-size: 15px;
+}
+.selected:hover{
+    scale: 1.1;
+}
